@@ -1,0 +1,35 @@
+# Core Framework
+streamlit==1.29.0
+requests==2.31.0
+
+# LangChain Core
+langchain==0.1.0
+langchain-community==0.0.13
+
+# LLM Integration
+langchain-openai==0.0.2
+
+# Vector Store
+pinecone-client==3.0.0
+langchain-pinecone==0.0.1
+
+# Embeddings
+sentence-transformers==2.2.2
+torch>=2.2.0
+huggingface-hub==0.19.4
+
+# Document Processing
+PyPDF2==3.0.1
+python-docx==1.1.0
+# Note: unstructured 0.11.0 requires Python <3.12
+# Installing compatible version for Python 3.12
+unstructured>=0.15.0  # Python 3.12 compatible
+python-magic-bin==0.4.14  # Windows compatibility
+
+# Utilities
+python-dotenv==1.0.0
+tiktoken==0.5.2
+
+# Optional - for local testing (removed faiss-cpu due to version conflict)
+# If you need faiss, install separately: pip install faiss-cpu
+chromadb==0.4.18
